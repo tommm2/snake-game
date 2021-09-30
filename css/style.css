@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e7e7e7;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  letter-spacing: 1.5px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+h3 {
+  margin: 50px 0 30px 0;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: #313131;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container .screen {
+  width: 300px;
+  height: 300px;
+  background-color: #313131;
+}
+.container .board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  height: 400px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.container .board h4 {
+  text-align: center;
+}
+.container .board .score {
+  display: flex;
+  justify-content: end;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #313131;
+  color: #fff;
+}
+.container .board .btn-group {
+  display: flex;
+  flex-direction: column;
+}
+.container .board .btn-group .btn {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.5rem;
+  margin: 10px 0;
+  padding: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 0.1s ease-in-out;
+}
+.container .board .btn-group .btn:focus {
+  outline: 0;
+}
+.container .board .btn-group .btn:active {
+  transform: scale(0.93);
+}
+
+/*# sourceMappingURL=style.css.map */
